@@ -1,58 +1,97 @@
 <!doctype html>
 <html lang="en">
 
+<!--https://cdnjs.com/libraries hi look there are so many cool stuff you can use for cool Projects -->
+
 <head>
   <meta charset="utf-8">
   <title>VS Portfolio</title>
   <meta name="description" content="VS">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+  <!--Animated Css Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
-
-<!--  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">-->
-<!--  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">-->
-
+  <!--  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">-->
+  <!--  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">-->
 </head>
 
 <body>
 
- 
-<section class="sec1">
-  <h1>Hi, I am Junior Frontend Developerin based on Earth </h1>
+<nav>
+  <h2>LOGO</h2>
+  <div>
+    <span>about</span>
+    <span>projects</span>
+    <span>links</span>
+    <span>contact</span>
+  </div>
+
+</nav>
+<section class="sec1 animated wow zoomIn">
+  <h1
+    class="animated wow fadeInDown"
+    data-wow-delay="1s">
+    Hi, I am Junior Frontend Developerin <br> based on Earth
+  </h1>
 </section>
 
-<section class="sec2">
-<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officia qui quod.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officia qui quod.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officia qui quod.
-</p>
+<section
+  class="sec2 animated wow fadeInUp"
+  data-wow-offset="150">
+  <p
+    class="animated wow rotateIn"
+    data-wow-delay="1s">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officia qui quod.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officia qui quod.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officia qui quod.
+  </p>
 </section>
 
 
-  <section class="sec3">
-    <img width="700px" src="./assets/IMG_0726.JPEG" alt="">
-    <img width="700px" src="./assets/IMG_0726.jpeg" alt="">
-  </section>
+<section
+  class="sec3 animated wow fadeInUp"
+  data-wow-offset="150">
 
-  <section class="sec4">
-    <h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab laborum nam reiciendis.
-    </h2>
-  </section>
+  <img
+    class="animated wow slideInLeft"
+    data-wow-delay="1s"
+    width="700px"
+    src="./assets/vs_left.png"
+    alt="imgplaceholder">
+  <img
+    class="animated wow slideInRight"
+    data-wow-delay="1s"
+    width="700px"
+    src="./assets/Vs_right.png"
+    alt="imgplacholder">
 
-  <script src="js/main.js"></script>
+
+
+</section>
+
+<section class="sec4 animated wow zoomIn"   data-wow-offset="150">
+  <h2 class="animated wow flash" data-wow-delay="1s">
+   thanks for watching
+  </h2>
+</section>
+
+<script src="js/main.js"></script>
 
 <!--  jQ CDN link -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- WOW CDN link / Animation Library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-<!--    WOW Init-->
-  new WOW().init();
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  <!--    WOW Init-->
+  new WOW(
+    {
+      mobile:true,
+    }
+  ).init();
 
-  </script>
+</script>
 
 
 </body>

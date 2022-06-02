@@ -6,7 +6,8 @@
 }
 
 body{
-  font-family: Roboto,sans-serif;
+  font-family: Roboto ,sans-serif;
+  font-weight: lighter;
   overflow-x: hidden;
 }
 
@@ -20,6 +21,12 @@ section {
 
 h1{
   font-size: 60px;
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: lighter;
 }
 
 p{
@@ -29,20 +36,24 @@ p{
 
 
 .sec1{
-  background-color: #2c2c54;
+  background-color: #29292b;
   color: #fff;
 }
 .sec2{
-  background-color: #00ffe7;
+  background-color: #00D4FFFF;
   color: #2c2c54;
 }
 .sec3{
-  background-color: #2c2c54;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   color: white;
+  position: relative;
 }
 
+
+
 .sec4{
-  background-color: #00ffe7;
+  background-color: #00D4FFFF;
   color: #2c2c54;
 }
 
